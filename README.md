@@ -75,3 +75,13 @@ NOTA: hemos dejado fuera de la estructura los directorios:
 #### `jshint-stylish`  da estilo a la salida de las comprobaciones jsHint
 #### `grunt-uglify` para minificar nuestro javascript
 
+## 10-vendors
+### Añadimos todos los vendos que necesitemos tanto js como css:
+    jquery
+    jqeury-ui
+    jquery-mobile-events
+    
+    css o Scss ( en nuestro caso ITCSS o EVERIS framework)
+    inuit-layout
+    a73-iuit-z-index    
+    
