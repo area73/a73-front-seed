@@ -63,5 +63,15 @@ NOTA: hemos dejado fuera de la estructura los directorios:
 #### `grunt-responsive-images` crea varias imágenes de una única fuente según la resolución que queramos
 #### `grunt-responsive-videos` crea varios vídeos de una única fuente según la resolución que queramos
 
-
+## 09-js
+### Añadimos modulos que nos permitirán manipular el javascript
+#### `grunt-browserify` Utilizaremos Browserify para generar las dependencias
+### Vamos a utilizar ES6 con Babel y por tanto tendremos que cargar los módulos:
+    babel-polyfill
+    babel-preset-es2015
+    babelify
+### Utilidades para la validación de nuesrto código y pos processamiento
+#### `grunt-contrib-jshint`  compobaciones jsHint
+#### `jshint-stylish`  da estilo a la salida de las comprobaciones jsHint
+#### `grunt-uglify` para minificar nuestro javascript
 
