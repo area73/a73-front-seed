@@ -9,3 +9,9 @@ NOTA: hemos dejado fuera de la estructura los directorios:
 * **build** => donde compilan los fuentes
 * **dist** => donde se copia de build a dist y se realizan los ajustes necesarios para prudcción (minimizar css, js etc etc)
 
+
+## 02-node-grunt
+### Añadido node con node init --> package.json
+### Añadido grunt --> gruntfile.js
+
+

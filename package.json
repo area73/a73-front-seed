@@ -1,0 +1,28 @@
+{
+  "name": "a73-front-seed",
+  "version": "1.0.0",
+  "description": "Proyecto semilla de stack FRONT para Everis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/area73/a73-front-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "front-end",
+    "node",
+    "grunt"
+  ],
+  "author": "Rodrigo Erades",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/area73/a73-front-seed/issues"
+  },
+  "homepage": "https://github.com/area73/a73-front-seed#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
