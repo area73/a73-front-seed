@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/area73/a73-front-seed#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.2"
   }
 }

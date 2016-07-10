@@ -1,15 +1,23 @@
+module.exports = function(grunt){
+    // variables globales que estarán disponibles en todas las tareas y módulos
+    var config = {
+        dev: 'dev',
+        static: 'tol/static',
+        dist: 'dist',
+        build_date: grunt.template.today('yyyymmddHHMM'),
+        version:  grunt.file.readJSON('package.json').version
+    };
 
-module.exports = function(grunt) {
+    var path = require('path');
 
-    // Project configuration.
-    grunt.initConfig({
+    require('load-grunt-config')(grunt, {
 
+        configPath: path.join(process.cwd(), 'grunt/config/'),
+        jitGrunt: {
+            customTasksDir: 'grunt/tasks/'
+        },
+        data: {
+            config: config
+        }
     });
-
-    // Load the plugin that provides the "***" task.
-    grunt.loadNpmTasks('***');
-    // Default task(s).
-    grunt.registerTask('default', []);
-
-
 };
