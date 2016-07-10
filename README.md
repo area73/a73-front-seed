@@ -62,6 +62,7 @@ NOTA: hemos dejado fuera de la estructura los directorios:
 #### `grunt-tinypng` optimiza PNG
 #### `grunt-responsive-images` crea varias imágenes de una única fuente según la resolución que queramos
 #### `grunt-responsive-videos` crea varios vídeos de una única fuente según la resolución que queramos
+####  `picturefill` polyfill para navegadores que no acepten la etiqueta <picture> 
 
 
 
